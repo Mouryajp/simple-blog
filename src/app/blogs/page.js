@@ -4,7 +4,7 @@ async function fetchListOfBlogs() {
   
   try {
     
-    const apiResponse = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/get-blogs`, {
+    const apiResponse = await fetch("simple-blog-brown.vercel.app/api/get-blogs", {
     
       method: "GET",
       cache: "no-store",
