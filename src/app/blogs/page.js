@@ -4,7 +4,7 @@ async function fetchListOfBlogs() {
   
   try {
     
-    const apiResponse = await fetch("https://simple-blog-brown.vercel.app/api/get-blogs", {
+    const apiResponse = await fetch(`https://simple-blog-brown.vercel.app/api/get-blogs`, {
     
       method: "GET",
       cache: "no-store",
