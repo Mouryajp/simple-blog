@@ -1,4 +1,5 @@
 import BlogOverview from "@/components/blog-overview";
+export const dynamic = "force-dynamic";
 async function fetchListOfBlogs() {
   
   try {
